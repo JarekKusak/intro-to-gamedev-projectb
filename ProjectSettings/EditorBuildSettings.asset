@@ -30,21 +30,24 @@ EditorBuildSettings:
     path: Assets/2DGamekit/Scenes/UI/Loading.unity
     guid: ebc4647ff02971c4ba1b207af066be4d
   - enabled: 0
-    path: Assets/NewScene.unity
+    path: Assets/Scenes/LabsScenes/NewScene.unity
     guid: 9c36fb81a3bc0472da9ea9f0db6fd7f4
   - enabled: 0
-    path: Assets/NewScene.unity
+    path: Assets/Scenes/LabsScenes/NewScene.unity
     guid: 9c36fb81a3bc0472da9ea9f0db6fd7f4
   - enabled: 0
-    path: Assets/NewLevelScene.unity
+    path: Assets/Scenes/LabsScenes/NewLevelScene.unity
     guid: 9fa3402919f104097ac74bf76a40a2c1
   - enabled: 0
-    path: Assets/Level3.unity
+    path: Assets/Scenes/LabsScenes/Level3.unity
     guid: 8e2bd73384e34413b890049bea618c31
   - enabled: 0
-    path: Assets/ScriptingScene.unity
+    path: Assets/Scenes/LabsScenes/ScriptingScene.unity
     guid: ab6cbccce7949478098fcc92a0a93a5c
   - enabled: 1
-    path: Assets/NewZone1.unity
+    path: Assets/Scenes/LabsScenes/NewZone1.unity
     guid: 2c8c2a3a382334f5abcef8281dc27529
+  - enabled: 1
+    path: Assets/Scenes/ProjectBScenes/AlienFoothills.unity
+    guid: 02ef5f2180854455b94ad21a75ba082f
   m_configObjects: {}
