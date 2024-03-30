@@ -26,7 +26,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/2DGamekit/Scenes/UI/UIMenus.unity
     guid: 705f1f73151a73046842d4e4ec8f514d
-  - enabled: 0
+  - enabled: 1
     path: Assets/2DGamekit/Scenes/UI/Loading.unity
     guid: ebc4647ff02971c4ba1b207af066be4d
   - enabled: 0
@@ -44,10 +44,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LabsScenes/ScriptingScene.unity
     guid: ab6cbccce7949478098fcc92a0a93a5c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LabsScenes/NewZone1.unity
     guid: 2c8c2a3a382334f5abcef8281dc27529
   - enabled: 1
     path: Assets/Scenes/ProjectBScenes/AlienFoothills.unity
     guid: 02ef5f2180854455b94ad21a75ba082f
+  - enabled: 0
+    path: Assets/AlienFoothillsPartTwo.unity
+    guid: 90efbd761e2554a689215cc9162b43ce
+  - enabled: 1
+    path: Assets/Scenes/ProjectBScenes/AlienFoothillsPartTwo.unity
+    guid: 5e3e4a03540034924b83618e79332ceb
   m_configObjects: {}
