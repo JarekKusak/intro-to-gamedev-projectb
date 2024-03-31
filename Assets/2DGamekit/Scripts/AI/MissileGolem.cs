@@ -157,10 +157,17 @@ public class MissileGolem : MonoBehaviour
             BT.Call(Die),
             BT.Terminate()
         );
-
-        BackgroundMusicPlayer.Instance.ChangeMusic(bossMusic);
-        BackgroundMusicPlayer.Instance.Play();
-        BackgroundMusicPlayer.Instance.Unmute(2.0f);
+        try
+        {
+            BackgroundMusicPlayer.Instance.ChangeMusic(bossMusic);
+            BackgroundMusicPlayer.Instance.Play();
+            BackgroundMusicPlayer.Instance.Unmute(2.0f);
+        }
+        catch
+        {
+            Debug.Log("tož nevím");
+        }
+        
 
         //we aggregate the total health to set the slider to the proper value
         //(as the boss is actually "killed" every round and regenerated, we can't use directly its current health)
