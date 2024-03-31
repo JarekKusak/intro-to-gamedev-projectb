@@ -56,4 +56,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ProjectBScenes/AlienFoothillsPartTwo.unity
     guid: 5e3e4a03540034924b83618e79332ceb
+  - enabled: 1
+    path: Assets/Scenes/ProjectBScenes/CrystalCaverns.unity
+    guid: 3f961d6848c214f2396fccdd841f20cb
   m_configObjects: {}
