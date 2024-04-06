@@ -136,7 +136,7 @@ PrefabInstance:
         type: 3}
       propertyPath: representedDamageable
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 331222230}
     - target: {fileID: 224750044673408476, guid: 2d2745d2a8668e644a921a4848c9bc90,
         type: 3}
       propertyPath: m_Pivot.x
@@ -803,6 +803,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2996b2e7d2d23413c9a36dfed30036ac, type: 3}
+--- !u!114 &331222230 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 475975412329631340, guid: 2996b2e7d2d23413c9a36dfed30036ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 331222229}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667573593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960138f0450083543ad1d17e1352019d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &333763352
 GameObject:
   m_ObjectHideFlags: 0
@@ -14725,6 +14737,7 @@ SceneRoots:
   - {fileID: 1891045116}
   - {fileID: 8636686}
   - {fileID: 457911189}
+  - {fileID: 331222229}
   - {fileID: 126852620}
   - {fileID: 978096695}
   - {fileID: 1456740997}
@@ -14740,7 +14753,6 @@ SceneRoots:
   - {fileID: 1390340937}
   - {fileID: 16924746}
   - {fileID: 1063853239}
-  - {fileID: 331222229}
   - {fileID: 463003075}
   - {fileID: 211444289}
   - {fileID: 1827117494}
