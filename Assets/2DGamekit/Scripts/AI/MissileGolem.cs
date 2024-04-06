@@ -377,7 +377,6 @@ public class MissileGolem : MonoBehaviour
     {
         shieldDownAudioPlayer.PlayRandomSound();
         damageable.DisableInvulnerability();
-        Debug.Log("Ahoj!!");
     }
 
     public void ShieldHit()
