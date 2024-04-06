@@ -94,8 +94,10 @@ namespace Gamekit2D
 
             //we can reach that point if the damager was one that was ignoring invincible state.
             //We still want the callback that we were hit, but not the damage to be removed from health.
+            Debug.Log("Něco se děje.");
             if (!m_Invulnerable)
             {
+                Debug.Log("Ouuu");
                 m_CurrentHealth -= damager.damage;
                 OnHealthSet.Invoke(this);
             }

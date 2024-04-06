@@ -869,9 +869,10 @@ MonoBehaviour:
   OnHealthSet:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: SetInitialHeartCount
+      - m_Target: {fileID: 114157640717073608, guid: 2d2745d2a8668e644a921a4848c9bc90,
+          type: 3}
+        m_TargetAssemblyTypeName: Gamekit2D.HealthUI, Assembly-CSharp
+        m_MethodName: ChangeHitPointUI
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

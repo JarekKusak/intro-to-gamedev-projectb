@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f3e6e784bd7045b98c806d4665dcbbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1481823213}
   laserStrikeCount: 1
   laserTrackingSpeed: 30
   delay: 1
@@ -40770,6 +40770,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960138f0450083543ad1d17e1352019d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1481823213 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1953551674628992765, guid: 2996b2e7d2d23413c9a36dfed30036ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1481823210}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1501641751
 GameObject:
   m_ObjectHideFlags: 0

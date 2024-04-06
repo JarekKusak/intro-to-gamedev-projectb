@@ -6,6 +6,7 @@ using BTAI;
 using UnityEngine.Events;
 using System;
 using Gamekit2D;
+using UnityEngine.Rendering;
 
 public class MissileGolem : MonoBehaviour
 #if UNITY_EDITOR
@@ -376,6 +377,7 @@ public class MissileGolem : MonoBehaviour
     {
         shieldDownAudioPlayer.PlayRandomSound();
         damageable.DisableInvulnerability();
+        Debug.Log("Ahoj!!");
     }
 
     public void ShieldHit()
