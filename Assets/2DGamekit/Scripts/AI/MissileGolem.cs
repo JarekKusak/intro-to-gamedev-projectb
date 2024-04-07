@@ -328,30 +328,77 @@ public class MissileGolem : MonoBehaviour
 
     void NextRound()
     {
-        damageable.SetHealth(rounds[round].bossHP);
-        damageable.EnableInvulnerability(true);
-        foreach (var p in rounds[round].platforms)
+        try
         {
-            p.gameObject.SetActive(true);
-            p.speed = rounds[round].platformSpeed;
-        }
-        foreach (var g in rounds[round].enableOnProgress)
-        {
-            g.SetActive(true);
-        }
-        round++;
+            // Kontrola, jestli 'damageable' není null.
+            if(damageable == null) 
+            {
+                Debug.LogError("Damageable is null!");
+                return;
+            }
+            else
+            {
+                damageable.SetHealth(rounds[round].bossHP);
+                damageable.EnableInvulnerability(true);
+            }
 
-        if (round == 2)
-        {
-            roundDeathSource.clip = startRound2Clip;
-            roundDeathSource.loop = true;
-            roundDeathSource.Play();
+            // Kontrola, jestli 'rounds' není null a jestli 'round' není mimo rozsah.
+            if(rounds == null)
+            {
+                Debug.LogError("Rounds array is null!");
+                return;
+            }
+            else if(round >= rounds.Length)
+            {
+                Debug.LogError("Round index is out of bounds!");
+                return;
+            }
+
+            // Kontrola, jestli 'platforms' v aktuálním kole není null a jsou aktivní.
+            if(rounds[round].platforms == null)
+            {
+                Debug.LogError("Platforms in current round are null!");
+            }
+            else
+            {
+                foreach (var p in rounds[round].platforms)
+                {
+                    if(p == null)
+                    {
+                        Debug.LogError("A platform in the platforms array is null!");
+                        continue;
+                    }
+                    p.gameObject.SetActive(true);
+                    p.speed = rounds[round].platformSpeed;
+                }
+            }
+
+            // Kontrola, jestli 'enableOnProgress' v aktuálním kole není null a jsou aktivní.
+            if(rounds[round].enableOnProgress == null)
+            {
+                Debug.LogError("EnableOnProgress in current round is null!");
+            }
+            else
+            {
+                foreach (var g in rounds[round].enableOnProgress)
+                {
+                    if(g == null)
+                    {
+                        Debug.LogError("An object in the enableOnProgress array is null!");
+                        continue;
+                    }
+                    g.SetActive(true);
+                }
+            }
+
+            // Zbytek vaší logiky ...
+            round++;
+
+            // Kontrola pro zahájení nového kola hry ...
         }
-        else if (round == 3)
+        catch (Exception e)
         {
-            roundDeathSource.clip = startRound3Clip;
-            roundDeathSource.loop = true;
-            roundDeathSource.Play();
+            Debug.LogError("An exception occurred: " + e.Message);
         }
     }
 
