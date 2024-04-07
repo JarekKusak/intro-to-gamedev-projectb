@@ -48,11 +48,11 @@ EditorBuildSettings:
     path: Assets/2DGamekit/Scenes/Scenes/ProjectBScenes/AlienFoothillsPartTwo.unity
     guid: 5e3e4a03540034924b83618e79332ceb
   - enabled: 1
-    path: Assets/2DGamekit/Scenes/Scenes/ProjectBScenes/BossFight.unity
-    guid: fc20001e4d7554306ae2e2764d2c18a6
-  - enabled: 1
     path: Assets/2DGamekit/Scenes/Scenes/ProjectBScenes/CrystalCaverns.unity
     guid: 3f961d6848c214f2396fccdd841f20cb
+  - enabled: 1
+    path: Assets/2DGamekit/Scenes/Scenes/ProjectBScenes/BossFight.unity
+    guid: fc20001e4d7554306ae2e2764d2c18a6
   - enabled: 0
     path: Assets/2DGamekit/Scenes/Scenes/LabsScenes/ScriptingScene.unity
     guid: ab6cbccce7949478098fcc92a0a93a5c
