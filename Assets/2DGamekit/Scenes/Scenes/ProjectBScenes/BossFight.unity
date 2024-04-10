@@ -515,7 +515,7 @@ PrefabInstance:
     - target: {fileID: 3008330666360855496, guid: 0874e6fb8408a4fddad0694014921767,
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Face the guardian and escape!
+      value: Face the guardian and escape! Press O to shoot his shield down!
       objectReference: {fileID: 0}
     - target: {fileID: 3307997189261686982, guid: 0874e6fb8408a4fddad0694014921767,
         type: 3}
