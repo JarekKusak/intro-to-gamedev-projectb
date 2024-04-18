@@ -52,5 +52,23 @@ namespace Gamekit2D
                 m_HealthIconAnimators[i].SetBool(m_HashActivePara, damageable.CurrentHealth >= i + 1);
             }
         }
+        
+        public IEnumerator ResetHealthUIAfterDelay(float delay)
+        {
+            // Wait for the specified delay.
+            yield return new WaitForSeconds(delay);
+
+            for (int i = 0; i < m_HealthIconAnimators.Length; i++)
+            {
+                // Set the heart to active after the delay.
+                m_HealthIconAnimators[i].SetBool(m_HashActivePara, true);
+            }
+        }
+        
+        public void ResetHealthUI()
+        {
+            StartCoroutine(ResetHealthUIAfterDelay(2f));
+        }
+
     }
 }
