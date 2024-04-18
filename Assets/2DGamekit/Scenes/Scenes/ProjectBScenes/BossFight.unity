@@ -9978,6 +9978,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 475975412329631340, guid: 2996b2e7d2d23413c9a36dfed30036ac,
+        type: 3}
+      propertyPath: OnHealthSet.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475975412329631340, guid: 2996b2e7d2d23413c9a36dfed30036ac,
+        type: 3}
+      propertyPath: OnHealthSet.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1953551674628992765, guid: 2996b2e7d2d23413c9a36dfed30036ac,
         type: 3}
       propertyPath: m_LocalPosition.x

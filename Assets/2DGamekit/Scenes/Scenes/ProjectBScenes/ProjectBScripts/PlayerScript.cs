@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Gamekit2D;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
@@ -8,6 +9,7 @@ public class PlayerScript : MonoBehaviour
 
     public void CollectKey()
     {
+        
         hasKey = true;
     }
     // Start is called before the first frame update
