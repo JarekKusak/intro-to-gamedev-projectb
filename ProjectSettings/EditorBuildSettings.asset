@@ -24,9 +24,6 @@ EditorBuildSettings:
     path: Assets/2DGamekit/Scenes/Zone5.unity
     guid: 960b12f881940d84983273421bebc695
   - enabled: 0
-    path: Assets/2DGamekit/Scenes/UI/UIMenus.unity
-    guid: 705f1f73151a73046842d4e4ec8f514d
-  - enabled: 0
     path: Assets/2DGamekit/Scenes/UI/Loading.unity
     guid: ebc4647ff02971c4ba1b207af066be4d
   - enabled: 0
@@ -53,6 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2DGamekit/Scenes/Scenes/ProjectBScenes/BossFight.unity
     guid: fc20001e4d7554306ae2e2764d2c18a6
+  - enabled: 1
+    path: Assets/2DGamekit/Scenes/UI/UIMenus.unity
+    guid: 705f1f73151a73046842d4e4ec8f514d
   - enabled: 0
     path: Assets/2DGamekit/Scenes/Scenes/LabsScenes/ScriptingScene.unity
     guid: ab6cbccce7949478098fcc92a0a93a5c
